@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Responsive NavBar Sticky</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Brand</div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="banner"></div>
+    <div class="container">
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero accusantium in aspernatur, laborum magnam
+            suscipit possimus excepturi culpa, nesciunt officia ipsam nihil a hic? Nam saepe aperiam autem iure
+            blanditiis sunt ullam placeat pariatur animi iste aliquid, deserunt adipisci in quod. Esse ex accusantium
+            quia eligendi perferendis velit ut aliquam dolorum magnam quaerat ratione, eius debitis quibusdam impedit
+            natus rerum necessitatibus repudiandae deleniti iusto harum consequatur et eveniet. Magnam accusamus
+            corrupti consequatur fugiat, rerum, ipsa sint ipsam praesentium dignissimos similique culpa necessitatibus
+            id pariatur iste corporis perspiciatis at! Consequuntur facilis totam eum aliquid omnis in necessitatibus
+            neque, alias asperiores, numquam est eveniet quaerat porro cumque adipisci eius obcaecati? Accusamus aliquam
+            dolorem eveniet expedita corrupti eaque laborum est nobis! Incidunt enim praesentium expedita minima. A
+            fugiat dicta quod voluptas neque esse exercitationem et provident vitae accusantium. Maiores, perspiciatis.
+            Incidunt, nam minima itaque delectus sunt iusto magnam cum! Beatae a aperiam necessitatibus?</p>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius sapiente, quasi praesentium nam tempora
+            unde rem optio aliquam veritatis autem reprehenderit iure doloremque cupiditate neque sequi illo commodi
+            iusto sint ipsam ad. Porro praesentium, reiciendis sequi nesciunt placeat distinctio quibusdam, vel in
+            commodi veritatis molestiae sit, tempore quaerat eligendi. Consequuntur aperiam beatae necessitatibus ab
+            obcaecati! Veritatis, officia. Fugiat voluptas iure fuga consequatur distinctio, eius quidem impedit
+            architecto possimus, labore quia et a vel at laboriosam? Dicta, exercitationem. Aut, odit atque placeat
+            repellendus in sapiente ea error repellat? Deserunt, sunt rerum! Magnam, deleniti quisquam mollitia, cumque
+            facilis recusandae fugit commodi tempore enim optio quam, sit molestias dignissimos velit sed rerum sunt!
+            Asperiores, nam? Nesciunt laborum rem magni voluptatum suscipit laboriosam.</p>
+        <h2>Heading 3</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim impedit provident atque aperiam quos. Mollitia
+            ab, cum eius unde veniam neque dolor, incidunt fuga hic eum repudiandae sint! Perspiciatis sint quia
+            quisquam accusantium consectetur impedit adipisci qui et porro assumenda! Quasi nemo dolores amet esse ipsa
+            itaque rem aut omnis voluptate cumque natus aperiam ab tempore facere facilis possimus, temporibus quia
+            praesentium error accusantium illum quibusdam cum molestias. Iusto quia, delectus enim harum nobis tempora
+            maiores voluptatem deserunt cum quae!</p>
+    </div>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector("nav");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
